@@ -1,0 +1,96 @@
+header {
+    background-color:#2c514c;
+    text-align: center;
+    border-bottom-style: groove;
+    padding-bottom:2%;
+    color:#C4A484;
+    font-size:150%;
+    border-bottom-color: burlywood;
+    border-bottom-width: 5px;
+    font-weight: bolder;
+    border-top-style:groove;
+    border-top-width:5px;
+    border-top-color:burlywood;
+    border-right-style:groove;
+    border-left-style:groove;
+    border-right-color:burlywood;
+    border-left-color:burlywood;
+}
+
+body {
+    background-color:rgba(219, 179, 179, 0.562);
+}
+
+img {
+    width:10%;
+    height:10%;
+    position:relative;
+    top:15px;
+    left:10px;
+}
+
+main > h2 {
+    background-color:#2c514c;
+    margin-top:0px;
+    color:#C4A484;
+    text-align:center;
+    margin-left:35%;
+    margin-right:35%;
+    border-bottom-style:solid;
+    border-bottom-color:burlywood;
+    border-right-style:solid;
+    border-right-color:burlywood;
+    border-left-style:solid;
+    border-left-color:burlywood;
+}
+
+#intro {
+    background-color:#5da271;
+    margin-left:20%;
+    margin-right:20%;
+    border-style:ridge;
+    border-color:burlywood;
+    padding:1%;
+    font-size: 20px;
+    color:#472d30;
+    text-align: center;
+}
+
+#done {
+    color:#472d30;
+    font-size:20px;
+}
+
+ul > li {
+    list-style-type:square;
+}
+
+footer {
+    text-align:center;
+}
+
+nav > a {
+    text-decoration-style:solid;
+    text-decoration-color: burlywood;
+    color:burlywood;
+    border-right: solid 1px burlywood;
+    padding-right:5px;
+    font-weight: bold;
+}
+
+a:last-of-type {
+    border-right: none;
+}
+
+a.brandFooterNav {
+    color:darkolivegreen;
+    text-decoration-color: darkolivegreen;
+    border-right-color: darkolivegreen;
+}
+
+p.cssPolygonPara {
+    text-align:center;
+    font-size:25px;
+    color:#2c514c;
+    font-weight:bolder;
+}

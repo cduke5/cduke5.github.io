@@ -1,0 +1,96 @@
+    
+    header {
+        font-family: Arial;
+        color:indigo;
+        background-color: lavender;
+        text-align: center;
+    }
+
+    main.cssFormsMain {
+        font-family: arial;
+        color:indigo;
+        background-color: lavender;
+        margin-left: 35%; 
+        margin-right:35%;
+    }
+
+    body {
+        font-family: arial;
+        color:indigo;
+        background-color: lavender;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    nav > a {
+        text-decoration-style:solid;
+        text-decoration-color: purple;
+        color:indigo;
+        border-right: solid 1px indigo;
+        padding-right:5px;
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align:center;
+    }
+
+    a:last-of-type {
+        border-right: none;
+    }
+
+    hr.rounded {
+        border-top: 8px solid #bbb;
+        border-radius: 5px;
+    }
+
+    p.cssFormsPara {
+        text-align: center; 
+        font-weight: bold;
+    }
+
+    p.cssFormsPara2 {
+        margin:0;
+        display:inline;
+        float:right;
+        margin-right:17%;
+        font-weight:bold;
+    }
+
+    p.optionalSurvey {
+        font-weight:bold;
+    }
+
+    p.newsTypes {
+        font-weight:bold;
+    }
+
+    input.subButton {
+        position:relative;
+        margin-left:205px;
+        background-color:darkmagenta;
+        color:white;
+        width:150px;
+        height:40px;
+        font-size:20px;
+        font-style:unset;
+        font-weight:bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #byEmail {
+        position:relative; 
+        left:110px;
+    }
+
+    #byPhone {
+        position:relative; 
+        left:362px;
+    }
+
+    #byPhoneLabel {
+        position:relative;
+        left:362px;
+    }

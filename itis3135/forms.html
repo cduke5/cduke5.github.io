@@ -2,70 +2,39 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Forms</title>
-<style>
-    
-    header {
-        font-family: Arial;
-        color:indigo;
-        background-color: lavender;
-        text-align: center;
-    }
-
-    main,body {
-        font-family: arial;
-        color:indigo;
-        background-color: lavender;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    nav > a {
-        text-decoration-style:solid;
-        text-decoration-color: purple;
-        color:indigo;
-        border-right: solid 1px indigo;
-        padding-right:5px;
-        font-weight: bold;
-    }
-
-    a:last-of-type {
-        border-right: none;
-    }
-
-    hr.rounded {
-        border-top: 8px solid #bbb;
-        border-radius: 5px;
-    }
-
-    </style>
+<title>Form</title>
+<link rel="stylesheet" href="styles/default.css">
 </head>
 
     <body>
     <header>
-        <h1 style="text-align: center;">Collin Dukes >> ITIS3135</h1>
+        <h1>Collin Dukes >> ITIS3135</h1>
         <nav>
-            <a href="https://webpages.uncc.edu/cdukes5/itis3135/index.html">Index</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135/Introduction.html">Introduction</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135/tables.html">Tables</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135/forms.html">Newsletter</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135/website_evaluations.html">Website Evaluations</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/index.html">Index</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/Introduction.html">Introduction</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/tables.html">Tables</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/forms.html">Newsletter</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/website_evaluations.html">Website Evaluations</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/polygon.html">Polygon</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/first-scripts.html">First Scripts</a>
         </nav>
     </header>
 
 
-    <main style="margin-left: 35%; margin-right:35%;">
-        <h1 style='text-align: center;'>Duke's Coffee Newsletter</h1>
-        <p style="text-align: center; font-weight: bold;">
+    <main class="cssFormsMain">
+        <h1>Duke's Coffee Newsletter</h1>
+        <p class="cssFormsPara">
             Sign up to receive special deals and coupons today! Please fill out the form below.
         </p>
 
         <form name="dukesnewletter" action="#">
             <br><br>
-            <label for="flname">Name:</label><p style="margin:0;display:inline;float:right;margin-right:17%;font-weight:bold">Deliver newsletter by:</p><br>
-            <input type="text" id="flname" placeholder="First and last name" size="30" required>
-            <input type="radio" id="byemail" value="BYEMAIL" name="deliverytype" style="position:relative; left:110px;" required>
-            <label for="byemail" style="position:relative; left:110px;">E-mail</label>
-            <br><input type="radio" id="byphone" value="BYPHONE" name="deliverytype" style="position:relative; left:362px;" required>
-            <label for="byphone" style="position:relative;left:362px;">Text</label><br>
+            <label for="flName">Name:</label><p class="cssFormsPara2">Deliver newsletter by:</p><br>
+            <input type="text" id="flName" placeholder="First and last name" size="30" required>
+            <input type="radio" id="byEmail" value="BYEMAIL" name="deliverytype" required>
+            <label for="byEmail" style="position:relative; left:110px;">E-mail</label>
+            <br><input type="radio" id="byPhone" value="BYPHONE" name="deliverytype" required>
+            <label for="byPhone" id="byPhoneLabel">Text</label><br>
             <label for="phone">Phone Number:</label><br>
             <input type="tel" id="phone" placeholder="Phone #" size="30" required><br><br>
             <label for="email">E-mail:</label><br>
@@ -74,7 +43,7 @@
 
         <hr class="rounded">
 
-        <p style="font-weight:bold;">
+        <p class ="newsTypes">
             Select the types of newletters you would like to receive:
         </p>
         
@@ -88,7 +57,7 @@
 
         <hr class="rounded">
 
-        <p style="font-weight:bold;">Optional Survey: <br><br>
+        <p class="optionalSurvey">Optional Survey: <br><br>
         </p>
         
             <label for="coffeesize">What size coffee do you normally get?</label>
@@ -102,7 +71,7 @@
         <hr class="rounded">
 
         <br>
-        <input type="submit" value="Subscribe" style="position:relative;margin-left:205px;background-color:darkmagenta;color:white;width:150px;height:40px;font-size:20px;"><br><br><br>
+        <input type="submit" class="subButton" value="Subscribe"><br><br><br>
 
         </form>
 
