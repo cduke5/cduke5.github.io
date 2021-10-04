@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="styles/default.css">
+<script src="scripts/calculator-try.js"></script>
+</head>
+
+    <body>
+    <header>
+        <h1>Collin Dukes >> ITIS3135</h1>
+        <nav>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/index.html">Index</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/Introduction.html">Introduction</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/tables.html">Tables</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/forms.html">Newsletter</a> 
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/website_evaluations.html">Website Evaluations</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/polygon.html">Polygon</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/first-scripts.html">First Scripts</a>
+            <a href="https://webpages.uncc.edu/cdukes5/itis3135/calculator_try.html">Calculator</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Calculator Try</h2>
+        <div class="calculator">
+            <div class="calcDisplay" id="calcDisplay">
+                0
+            </div>
+            <div class="calcKeys">
+                <button class="keyOperator" onclick="addition()">+</button>
+                <button class="keyOperator" onclick="subtraction()">-</button>
+                <button class="keyOperator" onclick="division()">÷</button>
+                <button class="keyOperator" onclick="multiply()">x</button>
+                <button class="number" onclick="numKeys('1')">1</button>
+                <button class="number" onclick="numKeys('2')">2</button>
+                <button class="number" onclick="numKeys('3')">3</button>
+                <button class="number" onclick="numKeys('4')">4</button>
+                <button class="number" onclick="numKeys('5')">5</button>
+                <button class="number" onclick="numKeys('6')">6</button>
+                <button class="number" onclick="numKeys('7')">7</button>
+                <button class="number" onclick="numKeys('8')">8</button>
+                <button class="number" onclick="numKeys('9')">9</button>
+                <button class="number" onclick="numKeys('0')">0</button>
+                <button class="decimal" onclick="numKeys('.')">.</button>
+                <button class="clear" onclick="allClear()">AC</button>
+                <button class="calculate" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <br>
+        <nav>
+        <a href="https://www.freecodecamp.org/cdukes">freeCodeCamp</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135">Github.io</a> <a href="https://github.com/cduke5">Github</a>
+        </nav>
+        <p>Page built by Able Designs</p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px;"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fcdukes5%2Fitis3135%2Fcalculator_try.html">
+            <img style ="border:0;width:88px;height:31px;"
+            src="https://webpages.uncc.edu/cdukes5/itis3135/images/button-valid-html5.gif"
+            alt="Valid html5">
+        </a>
+    </footer>
+    </body>
