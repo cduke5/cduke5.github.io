@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Polygon</title>
-<link rel="stylesheet" href="styles/brand_style.css">
-<script src="scripts/polygon-scripts.js"></script>
+<title>Slideshow</title>
+<link rel="stylesheet" href="styles/default.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
     <body>
@@ -26,17 +26,26 @@
     </header>
 
 
-    <main class="cssFormsMain">
-        <h2>What's That Polygon?</h2>
-        <p class="cssPolygonPara" id="cssPolygonPara"></p>
-
-
+    <main>
+        <h2>Slideshow</h2>
+        <div class="slideshowContainer">
+        <ul class="slideshow">
+            <li class="slideList"><img src="images/cake1.png" alt="Birthday Cake" id="slideImg1"></li>
+            <li class="slideList"><img src="images/cake2.png" alt="Birthday Cake" id="slideImg2"></li>
+            <li class="slideList"><img src="images/cake3.png" alt="Birthday Cake" id="slideImg3"></li>
+            <li class="slideList"><img src="images/cake4.png" alt="Birthday Cake" id="slideImg4"></li>
+            <li class="slideList"><img src="images/cake5.png" alt="Birthday Cake" id="slideImg5"></li>
+            <li class="slideList"><img src="images/cake6.png" alt="Birthday Cake" id="slideImg6"></li>
+        </ul>
+        </div>
+        <div class="slideshowContainer">
+            <img src="images/cake1.png" alt="Birthday Cake" id="slideUpdate">
+        </div>
     </main>
 
     <footer>
-        <br>
         <nav>
-        <a class="brandFooterNav" href="https://www.freecodecamp.org/cdukes">freeCodeCamp</a> <a class="brandFooterNav" href="https://webpages.uncc.edu/cdukes5/itis3135">Github.io</a> <a class="brandFooterNav" href="https://github.com/cduke5">Github</a>
+        <a href="https://www.freecodecamp.org/cdukes">freeCodeCamp</a> <a href="https://webpages.uncc.edu/cdukes5/itis3135">Github.io</a> <a href="https://github.com/cduke5">Github</a>
         </nav>
         <p>Page built by Able Designs</p>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">
@@ -44,11 +53,11 @@
                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
                 alt="Valid CSS!" />
         </a>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fcdukes5%2Fitis3135%2Fpolygon.html">
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fcdukes5%2Fitis3135%2Fslideshow.html">
             <img style ="border:0;width:88px;height:31px;"
             src="https://webpages.uncc.edu/cdukes5/itis3135/images/button-valid-html5.gif"
             alt="Valid html5">
         </a>
-        <script>validateEntry()</script>
+        <script src="scripts/slideshow.js"></script>
     </footer>
     </body>

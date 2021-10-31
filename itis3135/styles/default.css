@@ -1,12 +1,14 @@
     
-    header {
+    header 
+    {
         font-family: Arial;
         color:indigo;
         background-color: lavender;
         text-align: center;
     }
 
-    main.cssFormsMain {
+    main.cssFormsMain 
+    {
         font-family: arial;
         color:indigo;
         background-color: lavender;
@@ -14,17 +16,23 @@
         margin-right:35%;
     }
 
-    body {
+    body 
+    {
         font-family: arial;
         color:indigo;
         background-color: lavender;
     }
 
-    footer {
+    footer 
+    {
         text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 
-    nav > a {
+    nav > a 
+    {
         text-decoration-style:solid;
         text-decoration-color: purple;
         color:indigo;
@@ -33,29 +41,35 @@
         font-weight: bold;
     }
 
-    h1 {
+    h1 
+    {
         text-align:center;
     }
 
-    h2 {
+    h2 
+    {
         text-align:center;
     }
 
-    a:last-of-type {
+    a:last-of-type 
+    {
         border-right: none;
     }
 
-    hr.rounded {
+    hr.rounded 
+    {
         border-top: 8px solid #bbb;
         border-radius: 5px;
     }
 
-    p.cssFormsPara {
+    p.cssFormsPara 
+    {
         text-align: center; 
         font-weight: bold;
     }
 
-    p.cssFormsPara2 {
+    p.cssFormsPara2 
+    {
         margin:0;
         display:inline;
         float:right;
@@ -63,15 +77,18 @@
         font-weight:bold;
     }
 
-    p.optionalSurvey {
+    p.optionalSurvey 
+    {
         font-weight:bold;
     }
 
-    p.newsTypes {
+    p.newsTypes 
+    {
         font-weight:bold;
     }
 
-    input.subButton {
+    input.subButton 
+    {
         position:relative;
         margin-left:205px;
         background-color:darkmagenta;
@@ -84,22 +101,26 @@
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    #byEmail {
+    #byEmail 
+    {
         position:relative; 
         left:110px;
     }
 
-    #byPhone {
+    #byPhone 
+    {
         position:relative; 
         left:362px;
     }
 
-    #byPhoneLabel {
+    #byPhoneLabel 
+    {
         position:relative;
         left:362px;
     }
 
-    .calculator {
+    .calculator 
+    {
         display:grid;
         grid-template-rows: 1fr 5fr;
         margin-left:auto;
@@ -110,7 +131,8 @@
         height:auto;
     }
 
-    .calcKeys {
+    .calcKeys 
+    {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap:normal;
@@ -118,7 +140,8 @@
         padding:18px 18px;
     }
 
-    .calcKeys > * {
+    .calcKeys > * 
+    {
         display:block;
         align-content:stretch;
         justify-content: stretch;
@@ -129,14 +152,92 @@
         background-color:lavender;
     }
 
-    .calculate {
+    .calculate 
+    {
         grid-column:1 / span 4;
     }
 
-    .calcDisplay {
+    .calcDisplay 
+    {
         text-align:right;
         color:white;
         font-size: 50px;
         padding-top:35px;
         padding-right:60px;
+    }
+
+    .arraysButtons 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    .arraysResults
+    {
+        text-align: center;
+    }
+
+    th {
+        display:table-cell;
+        font-weight:bold;
+        text-align:left;
+        vertical-align:middle;
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+        border-image:initial;
+        padding:0.2em 1em 0.2em 0.5em;
+    }
+
+    td {
+        display:table-cell;
+        text-align:left;
+        vertical-align:middle;
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+        border-image:initial;
+        padding:0.2em 1em 0.2em 0.5em;
+    }
+
+    table {
+        border-collapse: collapse;
+        text-indent:initial;
+        border-spacing:2px;
+    }
+
+    #results_table
+    {
+        margin:0 auto;
+    }
+
+    .slideList > img 
+    {
+        width:auto;
+        height:100px;
+    }
+
+    .slideshow
+    {
+        list-style-type:none;
+        display:inline-block;
+    }
+
+    .slideList
+    {
+        float:left;
+        cursor:pointer;
+    }
+
+    .slideshowContainer
+    {
+        text-align:center;
+    }
+
+    #slideUpdate
+    {
+        width:auto;
+        height:550px;
     }
