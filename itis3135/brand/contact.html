@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>home</title>
+<link rel="stylesheet" href="styles/default.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+    <body>
+        <div w3-include-html="components/header.html"></div>
+        <main class="content">
+            <h2>Contact Us</h2>
+            <h3>Please fill out the form below</h3>
+            <div class="form">
+            <form name="brandForm" action="#">
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" placeholder="Your name.." aria-required="true" required>
+                <br>
+                <br>
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName" placeholder="Your last name.." aria-required="true" required>
+                <br>
+                <br>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="tel" id="phoneNumber" placeholder="Mobile or home phone.." aria-required="true" required>
+                <br>
+                <br>
+                <label for="userEmail">E-mail: </label>
+                <input type="email" id="userEmail" placeholder="Your e-mail.." aria-required="true" required>
+                <br>
+                <input type="submit">
+            </form>
+            </div>
+        </main>
+        <div w3-include-html="components/footer.html"></div>
+        <script>w3.includeHTML();</script>
+    </body>
+    </html>

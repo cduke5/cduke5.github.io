@@ -1,0 +1,52 @@
+nav 
+    {
+        text-align: center;
+    }
+
+nav > a 
+    {
+        text-decoration-style:solid;
+        text-decoration-color:burlywood;
+        color:brown;
+        border-right: solid 1px ;
+        padding-right:5px;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+a:last-of-type 
+    {
+        border-right: none;
+    }
+
+footer 
+    {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+h1 
+    {
+        text-align:center;
+        color:brown
+    }
+
+h2 
+    {
+        text-align:center;
+        color:brown;
+    }
+
+body 
+    {
+        background-color:bisque;
+    }
+
+.homeIntro
+    {
+        text-align: center;
+        color:brown;
+        font-size:x-large;
+    }
