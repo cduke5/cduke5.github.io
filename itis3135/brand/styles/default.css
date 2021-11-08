@@ -109,6 +109,7 @@ a.brandFooterNav
     color:darkolivegreen;
     text-decoration-color: darkolivegreen;
     border-right-color: darkolivegreen;
+    padding-right:5px;
 }
 
 #list 
@@ -154,7 +155,7 @@ input[type=text], select
     box-sizing: border-box;
 }
 
-input[type=submit] 
+input[type=button] 
 {
     background-color: #5da271;
     color: #472d30;
@@ -167,7 +168,7 @@ input[type=submit]
     font-size:x-large;
   }
 
-  input[type=submit]:hover 
+  input[type=button]:hover 
   {
     background-color: #45a049;
   }
@@ -208,4 +209,10 @@ input[type=submit]
   {
       font-size:25px;
       color:#472d30;
+  }
+
+  p
+  {
+      text-align:center;
+      font-size:x-large;
   }
