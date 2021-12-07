@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>home</title>
+<title>Home</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link rel="stylesheet" href="styles/default.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="scripts/slideshow.js"></script>
 </head>
 
 <body>
@@ -29,9 +33,13 @@
     </header>
 
     <main>
-        <div class="slideshow">
-            <img alt="slideshow image 1" src="images/slideshow1.jpg" class="slideImage" id="firstImage">
-            <img alt="slideshow image 2" src="images/slideshow2.jpg" class="slideImage"> 
+        <div class="slideshowWrapper">
+        <div class="slider">
+            <div><img alt="slideshow image 1" src="images/slideshow1.jpg" class="slideImage" id="firstImage"></div>
+            <div><img alt="slideshow image 2" src="images/slideshow2.jpg" class="slideImage"></div>
+            <div><img alt="slideshow image 3" src="images/slideshow3.jpg" class="slideImage"></div>
+            <div><img alt="slideshow image 4" src="images/slideshow4.jpg" class="slideImage"></div>
+        </div>
         </div>
 
         <div id="homeHeading">
@@ -46,7 +54,7 @@
             </p>
         </div>
         <br><br><br><br>
-        <h3>“The soul of a landscape, the spirits of the elements, the genius of every place will be revealed to a loving view of nature.”
+        <h3 id="quote">“The soul of a landscape, the spirits of the elements, the genius of every place will be revealed to a loving view of nature.”
 
             - Karl Jaspers.</h3>
     </main>
