@@ -458,3 +458,9 @@ label
     float:right;
     padding-left:10%;
 }
+
+#designer
+{
+    text-align: center;
+    font-size: x-small;
+}

@@ -7,7 +7,9 @@ $(document).ready(function(){
         pause:3000,
         speed:2000,
         controls:false,
-        touchEnabled:false
+        touchEnabled:false,
+        ariaLive:true,
+        ariaHidden:true
     });
   });
 
