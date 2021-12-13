@@ -4,29 +4,12 @@
 <meta charset="UTF-8">
 <title>hours</title>
 <link rel="stylesheet" href="styles/default.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
 <body>
     
-    <header>
-        <h1>
-            <img alt="logo" src="images/logo.png" id="logo">
-            C&D Lawn Care and Gardening
-        </h1>
-        
-        <nav>
-            <a href="index.html" id="homeL"><div>Home</div></a>
-            <div class="dropdown"><p class="dropbtn">Services</p><div class="dropContent">
-                <a href="aeration.html">Aeration</a>
-                <a href="pestcontrol.html">Pest Control</a>
-                <a href="aesthetics.html">Aesthetics</a>
-            </div></div>
-            <a href="gallery.html"><div>Gallery</div></a>
-            <a href="hours.html"><div id="homeLink">Hours</div></a>
-            <a href="contact.html"><div>Contact Us</div></a>
-        </nav>
-
-    </header>
+    <div w3-include-html="components/hoursHeader.html"></div>
 
     <main>
         <h2 class="centeredHeading">Hours</h2>
@@ -36,39 +19,34 @@
                 <td class="topCell" id="centeredCell">6:00 am - 9:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Tuesday</td>
-                <td id="centeredCell" class="hoursCell">6:00 am - 9:00 pm</td>
+                <td class="daysCell">Tuesday</td>
+                <td class="hoursCell">6:00 am - 9:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Wednesday</td>
-                <td id="centeredCell" class="hoursCell">6:00 am - 9:00 pm</td>
+                <td class="daysCell">Wednesday</td>
+                <td class="hoursCell">6:00 am - 9:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Thursday</td>
-                <td id="centeredCell" class="hoursCell">6:00 am - 9:00 pm</td>
+                <td class="daysCell">Thursday</td>
+                <td class="hoursCell">6:00 am - 9:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Friday</td>
-                <td id="centeredCell" class="hoursCell">4:00 am - 7:00 pm</td>
+                <td class="daysCell">Friday</td>
+                <td class="hoursCell">4:00 am - 7:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Saturday</td>
-                <td id="centeredCell" class="hoursCell">9:00 am - 7:00 pm</td>
+                <td class="daysCell">Saturday</td>
+                <td class="hoursCell">9:00 am - 7:00 pm</td>
             </tr>
             <tr>
-                <td class="hoursCell">Sunday</td>
-                <td id="centeredCell" class="hoursCell">Closed</td>
+                <td class="daysCell">Sunday</td>
+                <td class="hoursCell">Closed</td>
             </tr>
         </table>
     </main>
 
-    <footer>
-        <nav>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS Validation</a>
-            <a href="https://validator.w3.org/check?uri=referer">HTML Validation</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </footer>
+    <div w3-include-html="components/footer.html"></div>
+    <script>w3.includeHTML();</script>
 
 </body>
 

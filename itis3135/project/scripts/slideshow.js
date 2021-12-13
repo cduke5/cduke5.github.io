@@ -3,8 +3,12 @@ $(document).ready(function(){
         slideWidth:1200,
         pager:false,
         auto:true,
-        stopAutoOnClick:true,
-        pause:5000,
-        speed:3000
+        stopAutoOnClick:false,
+        pause:3000,
+        speed:2000,
+        controls:false,
+        touchEnabled:false
     });
   });
+
+  /*Plugin from https://bxslider.com/ and coded by Steven Wanderski*/

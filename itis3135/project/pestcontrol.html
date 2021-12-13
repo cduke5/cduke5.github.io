@@ -7,67 +7,69 @@
 <link rel="stylesheet" href="styles/jquery-ui.min.css">
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="scripts/pest.js"></script>
 <script src="scripts/accordion.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
 <body>
     
-    <header>
-        <h1>
-            <img alt="logo" src="images/logo.png" id="logo">
-            C&D Lawn Care and Gardening
-        </h1>
-        
-        <nav>
-            <a href="index.html" id="homeL"><div>Home</div></a>
-            <div class="dropdown"><p class="dropbtn">Services</p><div class="dropContent">
-                <a href="aeration.html">Aeration</a>
-                <a href="pestcontrol.html">Pest Control</a>
-                <a href="aesthetics.html">Aesthetics</a>
-            </div></div>
-            <a href="gallery.html"><div>Gallery</div></a>
-            <a href="hours.html"><div>Hours</div></a>
-            <a href="contact.html"><div>Contact Us</div></a>
-        </nav>
-
-    </header>
+    <div w3-include-html="components/aerationPestHeader.html"></div>
 
     <main>
       <h2 class="centeredHeading">Pest Control</h2>
 
-      <div>
-      <p>When your lawn is bright and green, it is the most inviting part of your home. It loses its appeal quickly when it becomes brown and sick. </p>
+      <div id="pestIntroWrapper">
+        <p id="pestIntro">
+            <img src="images/pestintro.jpg" alt="Brown patches" aria-label="Brown patches in lawn" id="pestIntroPic">
+        </p>
       </div>
 
       <div id="accordion">
-          <h3>Placeholder</h3>
+          <h3>Grubs</h3>
           <div>
-              <p>
-                  Placeholder
-              </p>
+                <p id="pest1" class="pest">
+                    <img src="images/grub.png" alt="Grub under lawn" id="grub">
+                    White grubs are among the most damaging of pests to your lawn. 
+                    They are the larvae of different varieties of scarab beetles. 
+                    During early fall, spring, and summer, grubs feast on your lawn from just beneath the surface.
+                    <br>
+                    <br>
+                    <b>Symptoms:</b> Damage begins with signs of wilted grass blades. Brown turf patches eventually follow into the patch of grass dying.
+                    Grub-damaged turf is easily lifted in spring and summer to reveal grubs underneath. If moles, crows, or skunks are seen feeding on your lawn, they are most likely searching for grubs.
+
+                </p>
           </div>
-          <h3>Placeholder</h3>
+          <h3>Chinch Bugs</h3>
           <div>
-              <p>
-                  Placeholder
-              </p>
+                <p id="pest2" class="pest">
+                    <img src="images/chinchbug.jpg" alt="Chinch bugs in grass" id="chinch">
+                    Chinch bugs feed on sap inside of grass blades. When they feed, chinch bugs secrete an anticoagulant that makes the grass stop water absorption.
+                    The end result is that the grass withers and dies.
+                    <br>
+                    <br>
+                    <b>Symptoms:</b> Symptoms are most noticeable from June to September. This is the time period the chinch bug feeds the most. 
+                    First signs include the grass taking on a purple tinge, then wilting due to not being able to absorb water, and eventually dying. 
+
+                </p>
           </div>
-          <h3>Placeholder</h3>
+          <h3>Armyworms</h3>
           <div>
-              <p>
-                  Placeholder
-              </p>
+                <p id="pest3" class="pest">
+                    <img src="images/armyworms.jpg" alt="Armyworms in grass" id="army">
+                    Armyworms are aptly named because they intiate war on your lawn. They are 1-2 inches long and vary in color. They can even be pink.
+                    Armyworms eventually turn into brown moths. 
+                    <br>
+                    <br>
+                    <b>Symptoms:</b> If you notice leaves reduced to a skeleton on plants, or sight of these worms in your lawn, then you might have a problem.
+                    They feed most often in the evening or at night and when invasions are heavy it almost looks like the lawn is moving.
+                </p>
           </div>
       </div>
     </main>
 
-    <footer>
-        <nav>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS Validation</a>
-            <a href="https://validator.w3.org/check?uri=referer">HTML Validation</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </footer>
+    <div w3-include-html="components/footer.html"></div>
+    <script>w3.includeHTML();</script>
 
 </body>
 

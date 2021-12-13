@@ -144,8 +144,9 @@ main > div > h2
 #homeHeading
 {
     padding-left:60px;
-    padding-top: 200px;
+    padding-top: 100px;
     height:450px;
+    box-shadow: 0px 5px 10px rgb(153, 190, 161);
 }
 
 
@@ -178,6 +179,7 @@ h3
 footer
 {
     margin-top:auto;
+    padding-top:2%;
 }
 
 footer > nav
@@ -190,6 +192,7 @@ body
     min-height:100vh;
     display:flex;
     flex-direction:column;
+    width:1920px;
 }
 
 input[type=text], select 
@@ -202,7 +205,7 @@ input[type=text], select
     box-sizing: border-box;
 }
 
-input[type=button] 
+input[type=submit] 
 {
     background-color: #5da271;
     padding: 14px 20px;
@@ -214,15 +217,17 @@ input[type=button]
     font-size:x-large;
   }
 
-input[type=button]:hover 
+input[type=submit]:hover 
 {
     background-color: #45a049;
 }
 
 .form
 {
+    width:50%;
     border-radius: 5px;
     padding: 20px;
+    margin:0 auto;
 }
 
 .form input
@@ -256,6 +261,13 @@ label
     font-size:25px;
 }
 
+#textBox
+{
+    resize:none;
+    border: 1px solid #ccc;
+    font-size:16px;
+}
+
 .centeredHeading
 {
     text-align:center;
@@ -264,6 +276,14 @@ label
 }
 
 .hoursCell
+{
+    border-bottom:1px solid #ddd;
+    font-size:x-large;
+    height:75px;
+    text-align:center;
+}
+
+.daysCell
 {
     border-bottom:1px solid #ddd;
     font-size:x-large;
@@ -345,18 +365,20 @@ label
     font-size:xx-large;
     font-weight:bold;
     text-align:center;
+    box-shadow: 0px 5px 10px rgb(153, 190, 161);
+    width:60%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:0 auto;
 }
 
-.airDiv
-{
-    margin-left:10%;
-}
 
 #aeratePara
 {
-    font-size:18px;
-    line-height: 40px;
+    font-size:24px;
+    line-height:49px;
     padding-top:2%;
+    text-align: justify;
 }
 
 #aerateImg
@@ -366,9 +388,73 @@ label
     height:400px;
     position:relative;
     top:-75px;
+    padding-left:6%;
 }
 
 #quote
 {
     padding-bottom:1%;
+    text-align:center;
+    width:98%;
+}
+
+#pestIntroWrapper
+{
+    font-size: 24px;
+    width:100%;
+    display:inline-block;
+    padding-bottom:2%;
+}
+
+#pestIntro
+{
+    line-height:60px;
+    text-align: justify;
+}
+
+#pestIntroPic
+{
+    float:right;
+    padding-left:10%;
+}
+
+#accordion
+{
+    padding-bottom:4%;
+    width:80%;
+    margin:0 auto;
+}
+
+#quoteWrapper
+{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.pest
+{
+    width:100%;
+    display:inline-block;
+    text-align:justify;
+    line-height:26px;
+    font-size:20px;
+}
+
+#grub
+{
+    float:right;
+    padding-left:10%;
+}
+
+#chinch
+{
+    float:left;
+    padding-right:6%;
+}
+
+#army
+{
+    float:right;
+    padding-left:10%;
 }
